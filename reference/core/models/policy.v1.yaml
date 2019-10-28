@@ -1,0 +1,7 @@
+title: Policy
+type: object
+properties:
+  id:
+    type: string
+  reference:
+    type: string
