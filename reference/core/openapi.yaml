@@ -5,7 +5,7 @@ info:
 servers:
   - url: 'http://localhost:3000'
 paths:
-  /accounts:
+  /accounts2:
     get:
       summary: List accounts
       tags: []
@@ -16,5 +16,6 @@ paths:
             application/json:
               schema:
                 $ref: ./models/policy.v1.yaml
+    parameters: []
 components:
   schemas: {}
